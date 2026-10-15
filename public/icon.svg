@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1917"/>
+      <stop offset="100%" stop-color="#0c0a09"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#78350f"/>
+      <stop offset="50%" stop-color="#b45309"/>
+      <stop offset="100%" stop-color="#92400e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="50%" stop-color="#eab308"/>
+      <stop offset="100%" stop-color="#ca8a04"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background with safe zone -->
+  <rect width="512" height="512" rx="100" fill="url(#bg)"/>
+
+  <!-- Swollen Ping River Flow -->
+  <path d="M 0 340 Q 128 310, 256 340 T 512 340 L 512 512 L 0 512 Z" fill="url(#water)" opacity="0.9"/>
+  <path d="M 0 380 Q 140 360, 280 390 T 512 370 L 512 512 L 0 512 Z" fill="#78350f" opacity="0.7"/>
+
+  <!-- Chiang Mai Iron Bridge Truss Silhouette -->
+  <path d="M 40 240 L 100 160 L 160 240 L 220 160 L 280 240 L 340 160 L 400 240 L 460 160" stroke="#f59e0b" stroke-width="8" stroke-linecap="round" fill="none" opacity="0.5"/>
+  <line x1="30" y1="240" x2="482" y2="240" stroke="#f59e0b" stroke-width="12" stroke-linecap="round" opacity="0.7"/>
+  <line x1="30" y1="160" x2="482" y2="160" stroke="#f59e0b" stroke-width="6" stroke-linecap="round" opacity="0.3"/>
+
+  <!-- Leaping Fish Motif -->
+  <path d="M 280 290 C 330 220, 310 130, 230 110 C 260 160, 220 220, 180 250 C 220 245, 250 270, 280 290 Z" fill="url(#gold)"/>
+  <!-- Fish Tail -->
+  <path d="M 180 250 L 140 240 L 155 265 L 135 290 Z" fill="#ca8a04"/>
+  <!-- Fish Eye -->
+  <circle cx="240" cy="135" r="7" fill="#1c1917"/>
+
+  <!-- Dynamic Bending Fishing Rod -->
+  <path d="M 430 420 Q 380 260, 270 100" stroke="#38bdf8" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <!-- Fishing Line to Fish Mouth -->
+  <path d="M 270 100 Q 255 105, 235 115" stroke="#fef08a" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+  <!-- Water Splashes -->
+  <circle cx="290" cy="330" r="8" fill="#fef08a" opacity="0.8"/>
+  <circle cx="200" cy="320" r="6" fill="#fef08a" opacity="0.7"/>
+  <circle cx="330" cy="310" r="10" fill="#fef08a" opacity="0.9"/>
+</svg>

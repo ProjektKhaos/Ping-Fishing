@@ -1,0 +1,6 @@
+{
+  "name": "Ping Flood Angler 3D",
+  "description": "Action-packed 3D fishing game set along the swollen Ping River at Chiang Mai's Iron Bridge. Battle monster river fish, master the surging current, and reel in legendary catches!",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
